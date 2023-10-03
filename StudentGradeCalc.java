@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 class Grade {
     public String grade(int avg) {
@@ -23,6 +23,7 @@ class Grade {
 
 public class StudentGradeCalc {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         Grade g = new Grade();
         System.out.println("Enter the Number of Subjects");
         int NumSub = sc.nextInt();
